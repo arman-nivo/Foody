@@ -1,0 +1,20 @@
+.catagorycolor{
+    padding: 5px 20px;
+    background-color:rgb(150, 30, 30);
+    color: white;
+    border-radius: 30px;
+
+}
+
+.filterFood{
+    padding: 15px 0px;
+}
+
+.foodDisplay_list{
+    padding: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap:auto;
+    row-gap: 30px;
+}

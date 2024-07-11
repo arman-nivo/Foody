@@ -1,0 +1,19 @@
+.footer_content{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    margin: 51px 42px;
+    gap: 49px;
+    align-content: center;
+    justify-content: end;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+.footer{
+    background-color: rgb(104, 31, 31);
+    color: white;
+    padding: 5px;
+    margin-top:40px ;
+}

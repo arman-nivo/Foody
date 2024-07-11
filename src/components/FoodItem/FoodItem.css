@@ -1,0 +1,88 @@
+.foodItem{
+    width: 90%;
+    margin-left: 4%;
+    border-radius: 11px;
+    padding: 10px 10px;
+    box-shadow: 1px 1px 8px 1px #cdc0c0;
+    animation: fadeIn 1s;
+    transition: 1s;
+} 
+.fooditemImg{
+    position: relative;
+}
+
+.fooditemImgimg{
+    width: 100%;
+    height: auto;
+}
+
+.foodname{
+    margin: 8px 0px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.description{
+    color: #9c8686;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: justify;
+    margin: 10px 0;
+}
+.priceAndcolori{
+    display: flex;
+    padding: 10px 2px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    color: #961f1d;
+    font-weight: 900;
+}
+
+.fooditemRating{
+    Display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.fooditemRating img{
+    width: 35%;
+}
+
+.fooditemImg .AddremoveItem{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    cursor: pointer;
+    border-radius: 19%;
+    background-color: #ffffff;
+    width: 38%;
+
+}
+
+.fooditemImg .AddItem{
+    width: 45px;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+.AddItem2{
+    width: 43px;
+    position: relative;
+    right: -7px;
+
+   
+}
+
+.removeitem{
+    width: 43px;
+    position: relative;
+    right: 10px;
+}

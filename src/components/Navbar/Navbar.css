@@ -1,0 +1,55 @@
+.navber{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbermau{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 40px;
+}
+.nav-signin{
+    background: transparent;
+    color: #49557e;
+    border: 1px solid red;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.7s;
+
+}
+
+.nav-signin:hover{
+    background-color: rgb(182, 12, 12);
+    color: white;
+
+}
+
+.active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+}
+.naver-serchicon{
+    position: relative;
+}
+
+.naver-serchicon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color:  rgb(182, 12, 12);
+    border-radius: 10px;
+    top: 9px;
+    right: -9px;
+
+}
